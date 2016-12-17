@@ -1,0 +1,27 @@
+[Setup]
+WarnBefore=0
+WarnAfter=0
+IncBuild=1
+CopyVersionInfoFrom=
+ExcludedResExts=.dcr
+EnabledVersionInfo=1
+IncludeInProject=1
+CompileWithBRCC32=0
+MajorVer=1
+MinorVer=0
+ReleaseVer=0
+BuildVer=138
+ResourceName=..\CPPOTATmpITHVerInfo
+
+[VersionInfo]
+CompanyName=Season's Fall Music
+FileDescription=CPPOTATemplate: An Open Tools API example in C++ Builder
+FileVersion=1.0.0.138
+InternalName=CPPOTATemplate
+LegalCopyright=Season's Fall Music
+LegalTrademarks=Season's Fall Music
+OriginalFilename=CPPOTATemplate
+ProductName=CPPOTATemplate
+ProductVersion=1.0
+Comments=CPPOTATemplate: An Open Tools API example in C++ Builder
+

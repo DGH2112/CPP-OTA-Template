@@ -1,0 +1,10 @@
+[Setup]
+WarnBefore=0
+WarnAfter=0
+
+[Zipping]
+Enabled=1
+ZipFile=D:\HoylD\Web Page\Zips\CPPOTATemplate.zip
+BasePath=D:\HoylD\RAD Studio\
+ExclusionFiles=
+

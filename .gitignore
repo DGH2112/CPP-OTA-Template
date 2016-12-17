@@ -77,3 +77,15 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+*.ini
+*.bpi
+*.bpl
+*.il*
+*.pdi
+*.tds
+*.tdump
+*.local
+*.dsk
+*.stat
+*.#0*
+*.~*~

@@ -1,0 +1,33 @@
+[Setup]
+WarnBefore=0
+WarnAfter=0
+IncBuild=1
+CopyVersionInfoFrom=
+ExcludedResExts=.dcr
+EnabledVersionInfo=1
+IncludeInProject=1
+CompileWithBRCC32=0
+MajorVer=1
+MinorVer=0
+ReleaseVer=0
+BuildVer=14
+ResourceName=CPPOTATmpITHVerInfo
+
+[Zipping]
+Enabled=1
+ZipFile=D:\HoylD\Web Page\Zips\CPPOTATemplate.zip
+BasePath=D:\HoylD\RAD Studio\
+ExclusionFiles=
+
+[VersionInfo]
+CompanyName=Season's Fall Music
+FileDescription=CPPOTATemplateXE101: A template CPP Open Tools API example.
+FileVersion=1.0.0.14
+InternalName=CPPOTATemplateXE101
+LegalCopyright=Season's Fall Music
+LegalTrademarks=Season's Fall Music
+OriginalFilename=CPPOTATemplateXE101
+ProductName=CPPOTATemplateXE101
+ProductVersion=1.0
+Comments=CPPOTATemplateXE101: A template CPP Open Tools API example.
+
