@@ -1,3 +1,13 @@
+/**
+
+  This module contains a class which implements the INTAAddInOptions interface than handles the
+  insertion of the options frame into the RAD Studio IDEs options dialogue.
+
+  @Author  David Hoyle
+  @Version 1.0
+  @Date    17 Dec 2017
+
+**/
 #ifndef CPPOTATemplateAddinOptionsH
 #define CPPOTATemplateAddinOptionsH
 

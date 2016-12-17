@@ -1,3 +1,13 @@
+/**
+
+  This module contains a class which represents an options frame for inserting into the
+  RAD Studio IDEs options dialogue.
+
+  @Author  David Hoyle
+  @Version 1.0
+  @Date    17 Dec 2016
+
+**/
 #ifndef CPPOTATemplateAppOptionsFrameH
 #define CPPOTATemplateAppOptionsFrameH
 

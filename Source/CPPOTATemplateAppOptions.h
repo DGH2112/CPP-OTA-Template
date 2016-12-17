@@ -1,3 +1,12 @@
+/**
+
+  This module contains a class which handles ALL the applications options.
+
+  @Author  David Hoyle
+  @Version 1.0
+  @Date    17 Dec 2017
+
+**/
 #ifndef CPPOTATemplateAppOptionsH
 #define CPPOTATemplateAppOptionsH
 

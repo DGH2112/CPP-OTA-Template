@@ -1,3 +1,13 @@
+/**
+
+  This module contains macros for use through the application to help with casting Delphi interfaces
+  and getting a reference to the BorlandIDEServices variable.
+
+  @Author  David Hoyle
+  @Version 1.0
+  @Date    17 Dec 2016
+
+**/
 #ifndef CPPOTATemplateMacrosH
 #define CPPOTATemplateMacrosH
 

@@ -15,7 +15,6 @@ object frameAppOptions: TframeAppOptions
     Anchors = [akLeft, akTop, akRight]
     Caption = '&Enabled'
     TabOrder = 0
-    ExplicitWidth = 549
   end
   object gbxAutoSaveOptions: TGroupBox
     Left = 3
@@ -25,8 +24,6 @@ object frameAppOptions: TframeAppOptions
     Anchors = [akLeft, akTop, akRight, akBottom]
     Caption = 'Auto Save &Options'
     TabOrder = 1
-    ExplicitWidth = 549
-    ExplicitHeight = 313
     object lblInterval: TLabel
       Left = 16
       Top = 32
@@ -42,7 +39,7 @@ object frameAppOptions: TframeAppOptions
       Height = 21
       ReadOnly = True
       TabOrder = 0
-      Text = '0'
+      Text = '10'
     end
     object udInterval: TUpDown
       Left = 145
@@ -52,6 +49,7 @@ object frameAppOptions: TframeAppOptions
       Associate = edtInterval
       Min = 10
       Max = 3600
+      Position = 10
       TabOrder = 1
     end
     object chkPrompt: TCheckBox

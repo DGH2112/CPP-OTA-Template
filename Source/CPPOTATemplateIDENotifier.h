@@ -1,3 +1,14 @@
+/**
+
+  This module contains a class which implements the IOTAIDENotifier, IOTAIDENotifier50 and
+  IOTAIDENotifier80 interfaces for capturing file notificationevents and compiler events in the
+  RAD Studio IDE.
+
+  @Author  David Hoyle
+  @Version 1.0
+  @Date    17 Dec 2016
+
+**/
 #ifndef CPPOTATemplateIDENotifierH
 #define CPPOTATemplateIDENotifierH
 

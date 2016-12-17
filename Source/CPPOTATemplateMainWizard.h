@@ -1,3 +1,16 @@
+/**
+
+  This module contains a class that implements the IOTAWizard and IOTAMenuWizard interfaces
+  to provide a main wizard interfaces for this OTA project which installs and Open Tools
+  API wizard / expert / plug-in into the RAD Studio IDE.
+
+  This clas manages ALL objects created and used by this application.
+
+  @Author  David Hoyle
+  @Version 1.0
+  @date    17 Dec 2016
+
+**/
 #ifndef CPPOTATemplateMainWizardH
 #define CPPOTATemplateMainWizardH
 
