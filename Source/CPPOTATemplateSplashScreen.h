@@ -13,6 +13,7 @@
 #define CPPOTATemplateSplashScreenH
 #endif
 
-#ifndef DLL
+//: @note Not required
+//: #ifndef DLL
 void __fastcall AddSplashScreen();
-#endif
+//: #endif

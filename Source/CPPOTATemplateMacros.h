@@ -13,10 +13,11 @@
 
 #include <ToolsAPI.hpp>
 
-#ifdef DLL
-#define BorlandIDEServices LocalIDEServices
-extern _di_IBorlandIDEServices LocalIDEServices;
-#endif
+//: @note Not required anymore
+//: #ifdef DLL
+//: #define BorlandIDEServices LocalIDEServices
+//: extern _di_IBorlandIDEServices LocalIDEServices;
+//: #endif
 
 #define QUERY_INTERFACE(T, iid, obj)   \
   if ((iid) == __uuidof(T)) {          \

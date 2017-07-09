@@ -18,7 +18,8 @@ namespace Cppotatemplatepkgdllinit {
 // For DLLs...
 // We need to declare a local variable to accept the BorlandIDEServices reference from the
 // Wizard creation method below
-_di_IBorlandIDEServices LocalIDEServices;
+//: @note Not Required
+//: _di_IBorlandIDEServices LocalIDEServices;
 
 // We also need to delcare the wizard entry point that is called by the IDE on loading a DLL
 extern "C" bool __stdcall __declspec(dllexport) INITWIZARD0001(
@@ -26,7 +27,8 @@ extern "C" bool __stdcall __declspec(dllexport) INITWIZARD0001(
   TWizardRegisterProc RegisterWizard,
   TWizardTerminateProc&)
 {
-  LocalIDEServices = Service; // get reference to the BorlandIDEServices
+  //: @note Not Required
+  //: LocalIDEServices = Service; // get reference to the BorlandIDEServices
   RegisterWizard(new TCPPOTATemplateWizard("TCPPOTATemplateWizard"));
   return true;
 }

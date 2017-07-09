@@ -23,6 +23,9 @@
 #pragma hdrstop
 #pragma argsused
 
+//: @note This pragma line fixes the missing external references to the DesignIDE.BPL package.
+#pragma link "DesignIDE.bpi"
+
 int WINAPI DllEntryPoint(HINSTANCE hinst, unsigned long reason, void* lpReserved)
 {
 	return 1;

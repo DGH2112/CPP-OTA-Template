@@ -1,8 +1,8 @@
 LANGUAGE LANG_ENGLISH,SUBLANG_ENGLISH_US
 
 1 VERSIONINFO LOADONCALL MOVEABLE DISCARDABLE IMPURE
-FILEVERSION 1, 0, 0, 13
-PRODUCTVERSION 1, 0, 0, 13
+FILEVERSION 1, 0, 0, 20
+PRODUCTVERSION 1, 0, 0, 20
 FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
 FILEOS VOS__WINDOWS32
 FILETYPE VFT_APP
@@ -13,7 +13,7 @@ FILETYPE VFT_APP
     {
      VALUE "CompanyName", "Season's Fall Music\000"
      VALUE "FileDescription", "CPPOTATemplateXE101: A template CPP Open Tools API example.\000"
-     VALUE "FileVersion", "1.0.0.13\000"
+     VALUE "FileVersion", "1.0.0.20\000"
      VALUE "InternalName", "CPPOTATemplateXE101\000"
      VALUE "LegalCopyright", "Season's Fall Music\000"
      VALUE "LegalTrademarks", "Season's Fall Music\000"

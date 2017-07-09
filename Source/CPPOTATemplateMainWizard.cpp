@@ -11,9 +11,10 @@
 
 __fastcall TCPPOTATemplateWizard::TCPPOTATemplateWizard(String strObjectName) :
   TDGHNotifierObject(strObjectName) {
-  #ifndef DLL
+  //: @note Not required now
+  //: #ifndef DLL
   AddSplashScreen();
-  #endif
+  //: #endif
   FAboutBoxPlugin = AddAboutBoxPlugin();
   FIDENotifier = AddIDENotifier();
   FAppOptions = new TCPPOTATemplateOptions();

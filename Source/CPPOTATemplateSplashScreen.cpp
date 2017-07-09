@@ -11,7 +11,8 @@
 
 #pragma package(smart_init)
 
-#ifndef DLL
+//: @note IFNDEF not required anymore
+//: #ifndef DLL
 void __fastcall AddSplashScreen() {
   int iMajor;
   int iMinor;
@@ -29,7 +30,7 @@ void __fastcall AddSplashScreen() {
       False,
       Format(strSplashScreenBuild, ARRAYOFCONST((iMajor, iMinor, iBugFix, iBuild)))
     );
-    Sleep(1000); //: @debug Here to pause splash screen to check icon
+    Sleep(5000); //: @debug Here to pause splash screen to check icon
   }
 }
-#endif
+//: #endif

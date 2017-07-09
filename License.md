@@ -4,7 +4,7 @@ Author: David Hoyle
 
 Version: 1.0
 
-Date: 17 Dec 2016
+Date: 09 Jul 2017
 
 Web Page: http://www.davidghoyle.co.uk/WordPress/?page_id=1468
 
@@ -25,7 +25,7 @@ the code be used in a commercial product with out the author's consent.
 
 regards
 
-David Hoyle (c) 17 Dec 2016
+David Hoyle (c) 09 Jul 2017
 
 davidghoyle@gmail.com
 
